@@ -6,10 +6,6 @@ oraz `bower.json`.
 
   - Do zbudowania i obsługi interfejsu użytkownika wykorzystaj bibliotekę `jQuery`,
     <b>pozbywając się</b> jednocześnie zawartych w przykładzie odwołań do standardowego DOM API.
-  - Styl opisujący wygląd interfejsu stwórz z pomocą języka `{less}`. Szkielet pliku
-    źródłowego znajduje się w podkatalogu `less`. Zawiera on konfigurację dla wtyczki
-    `brackets-less-autocompile` edytora Brackets, która powoduje, że po zapisaniu zmian,
-    plik `{less}` jest kompilowany, minimalizowany i umieszczany w katalogu `public/css`.
   - Podczas łączenia się z serwerem komunikatora użytkownik powinien móc wybrać sobie
     nazwę/identyfikator, który musi być *unikatowy* w ramach zbioru wszystkich *aktywnych*
     w danym momencie użytkowników.
